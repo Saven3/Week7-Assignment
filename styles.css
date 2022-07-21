@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(77, 77, 77);
+    color:black;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 3px;
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+
+tr:hover {
+    background-color:rgb(173, 0, 0)
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    padding: 0px;
+    color:black;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    background-color:rgb(173, 0, 0);
+    color:black;
+    font-family:cursive;
+    list-style-type: none;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color:rgb(79, 0, 143);
+}
+
+.pic {
+    display: flex;
+    justify-content: space-around;
+    float: left;
+    padding: 20px
+}
+
+div.rad:hover {
+    color:rgb(79, 0, 143);
+}
+
+div.radio:hover {
+    color:rgb(79, 0, 143);
+}
+
+.sub{
+    background-color:rgb(173, 0, 0);
+}
+
